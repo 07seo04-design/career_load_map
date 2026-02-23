@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(cmd.exe /c \"rmdir /s /q C:\\\\Users\\\\admin\\\\OneDrive\\\\문서\\\\Github\\\\career_load_map\\\\node_modules\")",
+      "Bash(npx rimraf node_modules)",
+      "Bash(npx next build:*)",
+      "Bash(git status:*)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git rev-list:*)",
+      "Bash(git checkout:*)"
+    ]
+  }
+}
